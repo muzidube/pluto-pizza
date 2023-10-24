@@ -32,7 +32,7 @@ export const PizzaSummary: FC<PizzaSummaryProps> = ( {type, size, crust, topping
             <h1 className="font-bold text-3xl">
                 {type}
             </h1>
-            <div className="flex gap-2 flex-wrap capitalize text-xl">
+            <div className="gap-2 flex-wrap capitalize text-xl hidden sm:flex">
                 <h1>{size.size} {size.measurements}</h1>
             </div>
             <div className="flex gap-5 flex-wrap text-xl items-center">

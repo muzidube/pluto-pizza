@@ -9,7 +9,7 @@ const css =
     'md:hover:text-gray-600 dark:text-white dark:hover:text-gray-400 dark:hover:text-white';
 
 const buttonVariants = cva(
-    'nav-button block text-3xl py-2 px-8 mb-3 mx-auto hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:bg-transparent dark:hover:bg-gray-700 dark:border-gray-700',
+    'nav-button block text-3xl py-2 px-8 mb-3 mx-auto md:hover:bg-transparent md:p-0 md:dark:hover:bg-transparent dark:hover:bg-gray-700 dark:border-gray-700',
     {
         variants: {
             variant: {

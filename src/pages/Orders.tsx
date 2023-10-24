@@ -34,7 +34,7 @@ export default function OrdersPage() {
         return <Navigate to="/menu" replace/>;
     }
     return (
-        <div className="w-1/2 mx-auto">
+        <div className="w-screen lg:w-5/6 lg:mx-auto">
             {order.map(( order, index ) => (
                 <OrdersTable key={index} order={order.order} numbers={order.numbers}/>
             ))}

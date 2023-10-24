@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 
 import { auth } from '../firebase/firebase';
+import * as ROUTES from '../services/routes';
 import pizzaImages from "../assets/json/pizzaImages.json";
 import { useCurrentPath } from "../hooks/useCurrentPath";
 import { NavButton } from "./NavButton";
@@ -34,9 +35,11 @@ export const NavBar: FC<NavBarProps> = ( {routes} ) => {
                     </div>
                 )}
                 <div className="flex flex-col items-center justify-center">
-                    <img src={pizzaImages.logo.image} alt="Pizza logo" className="w-1/6"/>
+                    <Link to={ROUTES.MENU}>
+                        <img src={pizzaImages.logo.image} alt="Pizza logo" className="w-1/2 sm:w-1/6"/>
+                    </Link>
                     <div
-                        className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                        className="items-center justify-between flex w-full md:w-auto md:order-1"
                         id="navbar-user"
                     >
                         <ul className="flex flex-col w-full items-center justify-center font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-primary-bg dark:bg-secondary-bg md:dark:bg-secondary-bg dark:border-gray-700">

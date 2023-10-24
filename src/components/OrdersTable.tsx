@@ -32,7 +32,7 @@ export default function BasicTable( objectNeeded: Orders ) {
         rows.push(createData(index, value.type, value.size.size, value.toppings.length, value.price))
     }
     return (
-        <TableContainer component={Paper} className="mb-4 w-1/2">
+        <TableContainer component={Paper} className="mb-4 w-screen md:w-1/2">
             <Table sx={{minWidth: 650}} aria-label="simple table">
                 <TableHead>
                     <TableRow>
