@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pluto-pizza/static/css/main.d9c87219.css",
-    "main.js": "/pluto-pizza/static/js/main.2ba61e38.js",
-    "static/js/787.26b13c8c.chunk.js": "/pluto-pizza/static/js/787.26b13c8c.chunk.js",
-    "static/media/PizzaBG2.png": "/pluto-pizza/static/media/PizzaBG2.8b6cfa72a7979929facb.png",
-    "index.html": "/pluto-pizza/index.html",
-    "main.d9c87219.css.map": "/pluto-pizza/static/css/main.d9c87219.css.map",
-    "main.2ba61e38.js.map": "/pluto-pizza/static/js/main.2ba61e38.js.map",
-    "787.26b13c8c.chunk.js.map": "/pluto-pizza/static/js/787.26b13c8c.chunk.js.map"
+    "main.css": "/pluto-pizza/menu/static/css/main.bc1bf1a8.css",
+    "main.js": "/pluto-pizza/menu/static/js/main.74e90606.js",
+    "static/js/787.26b13c8c.chunk.js": "/pluto-pizza/menu/static/js/787.26b13c8c.chunk.js",
+    "static/media/PizzaBG2.png": "/pluto-pizza/menu/static/media/PizzaBG2.8b6cfa72a7979929facb.png",
+    "index.html": "/pluto-pizza/menu/index.html",
+    "main.bc1bf1a8.css.map": "/pluto-pizza/menu/static/css/main.bc1bf1a8.css.map",
+    "main.74e90606.js.map": "/pluto-pizza/menu/static/js/main.74e90606.js.map",
+    "787.26b13c8c.chunk.js.map": "/pluto-pizza/menu/static/js/787.26b13c8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c87219.css",
-    "static/js/main.2ba61e38.js"
+    "static/css/main.bc1bf1a8.css",
+    "static/js/main.74e90606.js"
   ]
 }
