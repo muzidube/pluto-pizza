@@ -19,7 +19,7 @@ export const CartItem = ( {pizza}: { pizza: Pizza } ) => {
 
                 <img
                     className="h-24 w-24 mr-3"
-                    src="/images/PizzaSize2.png"
+                    src="/images/PizzaSize.png"
                     alt="Pizza"
                 />
                 <div className="capitalize pl-4 md:pl-0">

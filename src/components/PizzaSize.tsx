@@ -30,7 +30,7 @@ export const PizzaSize: FC<PizzaSizeProps> = ( {size, serves, variant, onClick, 
             onClick={onClick}>
             <img
                 className="h-24 w-24 mr-3"
-                src="/images/PizzaSize2.png"
+                src="/images/PizzaSlice.webp"
                 alt="Create your own pizza"
             />
             <div className="grid capitalize">

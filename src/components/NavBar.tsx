@@ -33,7 +33,7 @@ export const NavBar: FC<NavBarProps> = ( {routes} ) => {
                     </div>
                 )}
                 <div className="flex flex-col items-center justify-center">
-                    <img src="images/logo.png" alt="Pizza logo" className="w-1/6"/>
+                    <img src="/images/NewLogo.png" alt="Pizza logo" className="w-1/6"/>
                     <div
                         className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
                         id="navbar-user"
@@ -41,7 +41,7 @@ export const NavBar: FC<NavBarProps> = ( {routes} ) => {
                         <ul className="flex flex-col w-full items-center justify-center font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-primary-bg dark:bg-secondary-bg md:dark:bg-secondary-bg dark:border-gray-700">
                             {routes.map(( route, index ) => (
                                 <li key={index}>
-                                    <NavButton className="capitalize uppercase font-bold text-2xl"
+                                    <NavButton className="uppercase font-bold text-2xl"
                                                href={route.substring(1)}
                                                variant={currentPath === route ? 'selected' : 'default'}
                                     />
