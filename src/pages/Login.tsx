@@ -5,6 +5,8 @@ import { auth, getUserDocument } from '../firebase/firebase';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import React, { useEffect, useState } from 'react';
 
+import pizzaImages from "../assets/json/pizzaImages.json";
+
 export default function Login() {
     const navigate = useNavigate();
     const [ inputs, setInputs ] = useState({email: '', password: ''});
@@ -63,8 +65,8 @@ export default function Login() {
                     >
                         <img
                             className="mx-auto w-200px"
-                            src="/images/Logo.png"
-                            alt="Dumbbell"
+                            src={pizzaImages.logo.image}
+                            alt="Pizza logo"
                         />
                     </Link>
                 </div>
