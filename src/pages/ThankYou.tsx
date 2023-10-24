@@ -1,11 +1,3 @@
-import pizzaSizes from "../assets/json/pizzasSizes.json";
-import { PizzaSize } from "../components/PizzaSize";
-import pizzaOptions from "../assets/json/pizzaOptions.json";
-import { PizzaCrusts } from "../components/PizzaCrust";
-import { PizzaToppings } from "../components/PizzaToppings";
-import { PizzaSauces } from "../components/PizzaSauce";
-import { PizzaCheeses } from "../components/PizzaCheese";
-import { PizzaSummary } from "../components/PizzaSummary";
 import { useLocation } from "react-router-dom";
 
 export default function ThankYou() {

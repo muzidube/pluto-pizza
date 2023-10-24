@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-import pizzaSizes from "../assets/json/pizzasSizes.json";
-import { PizzaSize } from "../components/PizzaSize";
 import { Pizza } from "../services/interfaces";
 import { CartItem } from "../components/CartItem";
 import { CartSummary } from "../components/CartSummary";

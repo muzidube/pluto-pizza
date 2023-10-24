@@ -22,7 +22,6 @@ const firebaseConfig = {
 const app = !getApps.length ? initializeApp(firebaseConfig) : getApp();
 const auth = getAuth(app);
 const firestore = getFirestore(app);
-const firebaseID = process.env.REACT_APP_FIREBASE_ID!;
 
 const getUserDocument = async ( userUid: string ) => {
     if (!userUid) return;

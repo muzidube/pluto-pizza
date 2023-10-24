@@ -73,11 +73,6 @@ export default function Login() {
                 <div id="login-form" className="flex flex-col w-4/5 md:w-2/5">
                     <div
                         className="flex flex-col items-center bg-white p-10 border border-gray-primary mb-4 rounded shadow-lg">
-                        {/* <h1 className="flex justify-center w-full">
-              <p className="font-inter font-bold text-lg text-center">
-                PT Plus
-              </p>
-            </h1> */}
                         <form onSubmit={onSubmit} noValidate className="w-full">
                             <Input
                                 label="Email"
@@ -117,14 +112,12 @@ export default function Login() {
                                 </div>
                             )}
                             <button
-                                //   disabled={isInvalid}
                                 type="submit"
                                 className="bg-primary-button text-header-text w-full rounded h-8 font-bold"
                             >
                                 Login
                             </button>
                         </form>
-                        {/* 0f7173ff f87666ff */}
                     </div>
                 </div>
             </div>

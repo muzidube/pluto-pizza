@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
@@ -14,9 +13,6 @@ import NotFound from "./pages/NotFound";
 import Orders from "./pages/Orders";
 import PizzaOptions from "./pages/PizzaOptions";
 import ThankYou from "./pages/ThankYou";
-import { useAuthState } from "react-firebase-hooks/auth";
-
-import { auth } from './firebase/firebase';
 
 const menuRoutes = [
     ROUTES.MENU,

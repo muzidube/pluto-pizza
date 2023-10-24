@@ -1,9 +1,6 @@
 import { FC } from 'react';
-import { cva, VariantProps } from "class-variance-authority";
-import { cn } from "../utils/MergeTWClasses";
 import PizzaButton from "./PizzaButton";
 import { Size } from "../services/interfaces";
-import { v4 as uuidv4 } from 'uuid';
 
 interface PizzaSummaryProps extends React.HTMLAttributes<HTMLDivElement> {
     type: string

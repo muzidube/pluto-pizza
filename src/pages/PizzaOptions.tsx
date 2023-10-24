@@ -1,6 +1,4 @@
 import { PizzaSize } from "../components/PizzaSize";
-import { Link } from "react-router-dom";
-import * as ROUTES from "../services/routes";
 import { PizzaCrusts } from "../components/PizzaCrust";
 import { PizzaToppings } from "../components/PizzaToppings";
 import { PizzaSauces } from "../components/PizzaSauce";

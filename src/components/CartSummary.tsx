@@ -1,9 +1,5 @@
 import { FC } from 'react';
-import { cva, VariantProps } from "class-variance-authority";
-import { cn } from "../utils/MergeTWClasses";
-import PizzaButton from "./PizzaButton";
 import { Numbers, Pizza } from "../services/interfaces";
-import { v4 as uuidv4 } from 'uuid';
 import * as React from "react";
 import SubmitOrderButton from "./SubmitOrderButton";
 

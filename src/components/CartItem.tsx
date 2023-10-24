@@ -1,7 +1,5 @@
-import { cn } from "../utils/MergeTWClasses";
 import { Pizza } from "../services/interfaces";
 import DeleteIcon from '@mui/icons-material/Delete';
-import { NavButton } from "./NavButton";
 
 import pizzaImages from "../assets/json/pizzaImages.json";
 

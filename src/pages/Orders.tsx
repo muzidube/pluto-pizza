@@ -1,14 +1,5 @@
-import { CreatePizza } from "../components/CreatePizza";
-import { OtherPizza } from "../components/OtherPizza";
-import { PizzaCard } from "../components/PizzaCard";
-import pizzaTypes from "../assets/json/pizzas.json";
-import { Link, Navigate } from "react-router-dom";
-import * as ROUTES from "../services/routes";
-import DropdownMenu from "../components/Dropdown";
-import { PizzaCard2 } from "../components/PizzaCard2";
-import Divider from '@mui/material/Divider';
-import { CartItem } from "../components/CartItem";
-import { useEffect, useMemo, useState } from "react";
+import { Navigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { auth, getOrdersDocument } from "../firebase/firebase";
 import { Orders } from "../services/interfaces";
 import OrdersTable from "../components/OrdersTable";
