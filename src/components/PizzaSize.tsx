@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import { cva, VariantProps } from "class-variance-authority";
-import { cn } from "../utils/MergeTWClasses";
+import { cn } from "../utils/MergeTWClasses"
+
+import pizzaImages from "../assets/json/pizzaImages.json";
 
 const optionVariant = cva(
     'border-2 rounded grid grid-cols-2 items-center justify-center hover:cursor-pointer hover:bg-primary-bg',
@@ -30,7 +32,7 @@ export const PizzaSize: FC<PizzaSizeProps> = ( {size, serves, variant, onClick, 
             onClick={onClick}>
             <img
                 className="h-24 w-24 mr-3"
-                src="/images/PizzaSlice.webp"
+                src={pizzaImages.size.image}
                 alt="Create your own pizza"
             />
             <div className="grid capitalize">
