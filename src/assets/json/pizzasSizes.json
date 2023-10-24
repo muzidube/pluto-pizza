@@ -1,0 +1,25 @@
+{
+  "sizes": [
+    {
+      "size": "small",
+      "measurements": "9.5",
+      "serves": "1-2",
+      "price": 6.99,
+      "toppings": 2
+    },
+    {
+      "size": "medium",
+      "measurements": "11.5",
+      "serves": "2-3",
+      "price": 8.99,
+      "toppings": 3
+    },
+    {
+      "size": "large",
+      "measurements": "13.5",
+      "serves": "3-4",
+      "price": 11.99,
+      "toppings": 5
+    }
+  ]
+}

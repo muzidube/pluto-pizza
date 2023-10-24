@@ -1,0 +1,99 @@
+{
+  "pizzas": [
+    {
+      "type": "Margherita",
+      "size": {
+        "size": "large",
+        "measurements": 13.5,
+        "serves": "3-4",
+        "price": 11.99,
+        "toppings": 5
+      },
+      "crust": "classic",
+      "toppings": [
+        "basil"
+      ],
+      "sauce": "tomato",
+      "cheese": "mozzarella",
+      "description": "The classic. Fresh mozzarella, basil, and tomato sauce.",
+      "image": "images/Margherita.webp"
+    },
+    {
+      "type": "Pepperoni",
+      "size": {
+        "size": "large",
+        "measurements": 13.5,
+        "serves": "3-4",
+        "price": 11.99,
+        "toppings": 5
+      },
+      "crust": "classic",
+      "toppings": [
+        "pepperoni"
+      ],
+      "sauce": "tomato",
+      "cheese": "mozzarella",
+      "description": "Everything you want. A great crust, gooey cheese, and tons of pepperoni.",
+      "image": "images/PepperoniPizza.png"
+    },
+    {
+      "type": "Vegetarian",
+      "size": {
+        "size": "large",
+        "measurements": 13.5,
+        "serves": "3-4",
+        "price": 11.99,
+        "toppings": 5
+      },
+      "crust": "thin",
+      "toppings": [
+        "bell peppers",
+        "mushrooms",
+        "olives"
+      ],
+      "sauce": "tomato",
+      "cheese": "mozzarella",
+      "description": "This vegetarian pizza will be a hit at your next pizza night!",
+      "image": "images/Vegetarian.png"
+    },
+    {
+      "type": "Hawaiian",
+      "size": {
+        "size": "large",
+        "measurements": 13.5,
+        "serves": "3-4",
+        "price": 11.99,
+        "toppings": 5
+      },
+      "crust": "thin",
+      "toppings": [
+        "ham",
+        "pineapple"
+      ],
+      "sauce": "tomato",
+      "cheese": "mozzarella",
+      "description": "This crowd-pleasing pizza recipe starts with my homemade.",
+      "image": "images/Hawaiian.png"
+    },
+    {
+      "type": "Meat Lover's",
+      "size": {
+        "size": "large",
+        "measurements": 13.5,
+        "serves": "3-4",
+        "price": 11.99,
+        "toppings": 5
+      },
+      "crust": "classic",
+      "toppings": [
+        "sausage",
+        "pepperoni",
+        "bacon"
+      ],
+      "sauce": "bbq",
+      "cheese": "mozzarella",
+      "description": "Perfect for those who crave meat with every bite.",
+      "image": "images/Meat Lovers.png"
+    }
+  ]
+}

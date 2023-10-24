@@ -1,0 +1,25 @@
+{
+  "crusts": [
+    "thin",
+    "classic"
+  ],
+  "toppings": [
+    "pepperoni",
+    "basil",
+    "mushrooms",
+    "bell peppers",
+    "olives",
+    "ham",
+    "pineapple",
+    "sausage",
+    "bacon"
+  ],
+  "sauces": [
+    "tomato",
+    "bbq"
+  ],
+  "cheeses": [
+    "mozzarella",
+    "reduced fat"
+  ]
+}
