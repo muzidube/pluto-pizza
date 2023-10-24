@@ -10,13 +10,14 @@ import pizzaSizes from "../assets/json/pizzasSizes.json";
 import pizzaOptions from "../assets/json/pizzaOptions.json";
 import { useState } from "react";
 import { useLocation } from 'react-router-dom'
+import { Size } from "../services/interfaces";
 
-interface Size {
-    size: string,
-    measurements: string,
-    serves: string,
-    price: number
-    toppings: number
+const defaultSize = {
+    "size": "large",
+    "measurements": 13.5,
+    "serves": "3-4",
+    "price": 11.99,
+    "toppings": 5
 }
 
 export default function PizzaOptions() {
@@ -24,7 +25,7 @@ export default function PizzaOptions() {
     if (pizza === null) {
         pizza = undefined
     }
-    const [ selectedSize, setSelectedSize ] = useState<Size>(pizza !== undefined ? pizza.size : {} as Size);
+    const [ selectedSize, setSelectedSize ] = useState<Size>(pizza !== undefined ? pizza.size : defaultSize);
     const [ selectedCrust, setSelectedCrust ] = useState(pizza !== undefined ? pizza.crust : '');
     const [ selectedToppings, setSelectedToppings ] = useState<string[]>(pizza !== undefined ? pizza.toppings : []);
     const [ selectedSauce, setSelectedSauce ] = useState(pizza !== undefined ? pizza.sauce : '');
