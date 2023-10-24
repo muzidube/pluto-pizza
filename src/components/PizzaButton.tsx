@@ -23,7 +23,7 @@ export default function PizzaButton( {pizza}: { pizza: Pizza } ) {
         <>
             <Link to={ROUTES.CART}>
                 <button className="bg-primary-bg px-4 py-2 rounded-md shadow text-base hover:bg-primary-button"
-                        onClick={() => handleClick(pizza)}>ADDs TO
+                        onClick={() => handleClick(pizza)}>ADD TO
                     CART
                 </button>
             </Link>

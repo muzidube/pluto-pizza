@@ -3,6 +3,8 @@ import { Pizza } from "../services/interfaces";
 import DeleteIcon from '@mui/icons-material/Delete';
 import { NavButton } from "./NavButton";
 
+import pizzaImages from "../assets/json/pizzaImages.json";
+
 
 export const CartItem = ( {pizza}: { pizza: Pizza } ) => {
     const deletePizza = () => {
@@ -19,7 +21,7 @@ export const CartItem = ( {pizza}: { pizza: Pizza } ) => {
 
                 <img
                     className="h-24 w-24 mr-3"
-                    src="/images/PizzaSize.png"
+                    src={pizzaImages.size.image}
                     alt="Pizza"
                 />
                 <div className="capitalize pl-4 md:pl-0">

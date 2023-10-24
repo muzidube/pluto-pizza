@@ -119,7 +119,7 @@ export default function Login() {
                             <button
                                 //   disabled={isInvalid}
                                 type="submit"
-                                className="bg-primary-button text-white w-full rounded h-8 font-bold"
+                                className="bg-primary-button text-header-text w-full rounded h-8 font-bold"
                             >
                                 Login
                             </button>

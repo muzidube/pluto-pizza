@@ -38,8 +38,8 @@ export default function BasicTable( objectNeeded: Orders ) {
                     <TableRow>
                         <TableCell>Type</TableCell>
                         <TableCell align="right">Size</TableCell>
-                        <TableCell align="right">Toppings</TableCell>
-                        <TableCell align="right">Price</TableCell>
+                        <TableCell align="right">No. of Toppings</TableCell>
+                        <TableCell align="right">Price (£)</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
