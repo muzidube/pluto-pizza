@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import * as ROUTES from './services/routes';
 
@@ -23,20 +23,7 @@ const menuRoutes = [
     ROUTES.CART,
 ];
 
-const ProtectedRoute = ( {
-                             user,
-                             redirectPath = '/menu',
-                             children,
-                         }: { user: any, redirectPath: string, children: any } ) => {
-    if (!user) {
-        return <Navigate to={redirectPath} replace/>;
-    }
-
-    return children;
-};
-
 function App() {
-    const [ user ] = useAuthState(auth);
     return (
         <BrowserRouter>
             <Routes>

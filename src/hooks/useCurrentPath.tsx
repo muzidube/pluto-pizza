@@ -29,6 +29,10 @@ export const useCurrentPath = () => {
                 label: 'Orders',
             },
             {
+                path: '/',
+                label: 'Menu',
+            },
+            {
                 path: ROUTES.PIZZA_OPTIONS,
                 label: 'Pizza Options',
             },
