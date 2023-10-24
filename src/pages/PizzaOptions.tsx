@@ -64,7 +64,7 @@ export default function PizzaOptions() {
                     {pizzaOptions.crusts.map(( crust, index ) => (
                         <PizzaCrusts key={index} crust={crust} onClick={() => setSelectedCrust(crust)}
                                      variant={selectedCrust === crust ? "selected" : "normal"}
-                                     imageUrl={`images/${crust}.png`}/>
+                                     imageUrl={`pluto-pizza/images/${crust}.png`}/>
                     ))}
                 </div>
             </div>
@@ -82,7 +82,7 @@ export default function PizzaOptions() {
                         <PizzaToppings key={index} topping={topping} onClick={() => handleClick(topping)}
                                        variant={selectedToppings.includes(topping) ? "selected" : "normal"}
                                        selected={selectedToppings.includes(topping)}
-                                       imageUrl={`images/${topping}.png`}/>
+                                       imageUrl={`pluto-pizza/images/${topping}.png`}/>
                     ))}
                 </div>
             </div>
@@ -94,7 +94,7 @@ export default function PizzaOptions() {
                     {pizzaOptions.sauces.map(( sauce, index ) => (
                         <PizzaSauces key={index} sauce={sauce} onClick={() => setSelectedSauce(sauce)}
                                      variant={selectedSauce === sauce ? "selected" : "normal"}
-                                     imageUrl={`images/${sauce}.png`}/>
+                                     imageUrl={`pluto-pizza/images/${sauce}.png`}/>
                     ))}
                 </div>
             </div>
@@ -106,7 +106,7 @@ export default function PizzaOptions() {
                     {pizzaOptions.cheeses.map(( cheese, index ) => (
                         <PizzaCheeses key={index} cheese={cheese} onClick={() => setSelectedCheese(cheese)}
                                       variant={selectedCheese === cheese ? "selected" : "normal"}
-                                      imageUrl={`images/${cheese}.png`}/>
+                                      imageUrl={`pluto-pizza/images/${cheese}.png`}/>
                     ))}
                 </div>
             </div>

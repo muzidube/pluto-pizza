@@ -1,11 +1,11 @@
 {
   "logo": {
-    "image": "images/Logo.png"
+    "image": "pluto-pizza/images/Logo.png"
   },
   "create": {
-    "image": "images/CreatePizza.png"
+    "image": "pluto-pizza/images/CreatePizza.png"
   },
   "size": {
-    "image": "images/PizzaSize.png"
+    "image": "pluto-pizza/images/PizzaSize.png"
   }
 }

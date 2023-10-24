@@ -16,7 +16,7 @@
       "sauce": "tomato",
       "cheese": "mozzarella",
       "description": "The classic. Fresh mozzarella, basil, and tomato sauce.",
-      "image": "images/Margherita.webp"
+      "image": "pluto-pizza/images/Margherita.webp"
     },
     {
       "type": "Pepperoni",
@@ -34,7 +34,7 @@
       "sauce": "tomato",
       "cheese": "mozzarella",
       "description": "Everything you want. A great crust, gooey cheese, and tons of pepperoni.",
-      "image": "images/PepperoniPizza.png"
+      "image": "pluto-pizza/images/PepperoniPizza.png"
     },
     {
       "type": "Vegetarian",
@@ -54,7 +54,7 @@
       "sauce": "tomato",
       "cheese": "mozzarella",
       "description": "This vegetarian pizza will be a hit at your next pizza night!",
-      "image": "images/Vegetarian.png"
+      "image": "pluto-pizza/images/Vegetarian.png"
     },
     {
       "type": "Hawaiian",
@@ -73,7 +73,7 @@
       "sauce": "tomato",
       "cheese": "mozzarella",
       "description": "This crowd-pleasing pizza recipe starts with my homemade.",
-      "image": "images/Hawaiian.png"
+      "image": "pluto-pizza/images/Hawaiian.png"
     },
     {
       "type": "Meat Lover's",
@@ -93,7 +93,7 @@
       "sauce": "bbq",
       "cheese": "mozzarella",
       "description": "Perfect for those who crave meat with every bite.",
-      "image": "images/Meat Lovers.png"
+      "image": "pluto-pizza/images/Meat Lovers.png"
     }
   ]
 }
