@@ -25,10 +25,11 @@ const menuRoutes = [
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route element={<NavBar routes={menuRoutes}/>}>
                     <Route path="/" element={<Menu/>}/>
+                    <Route path="/pluto-pizza" element={<Menu/>}/>
                     <Route path={ROUTES.CART} element={<Cart/>}/>
                     <Route path={ROUTES.MENU} element={<Menu/>}/>
                     <Route path={ROUTES.PIZZA_OPTIONS} element={<PizzaOptions/>}/>
@@ -38,7 +39,7 @@ function App() {
                 </Route>
                 <Route path={ROUTES.LOGIN} element={<Login/>}/>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

@@ -33,6 +33,10 @@ export const useCurrentPath = () => {
                 label: 'Menu',
             },
             {
+                path: '/pluto-pizza',
+                label: 'Menu',
+            },
+            {
                 path: ROUTES.PIZZA_OPTIONS,
                 label: 'Pizza Options',
             },
